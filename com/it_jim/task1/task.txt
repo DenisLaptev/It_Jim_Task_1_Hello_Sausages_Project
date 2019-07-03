@@ -1,0 +1,13 @@
+Please make a function which will create a list of dicts which will contain the following information about the files: 
+filename, left, right, top, bottom of each sausage. 
+And the image itself, too.
+
+Input of the function is the path to the folder with images. Output is a list like this:
+
+ [{'file': SR1.png, 'coords': [left,right,top,bottom], 'img':  }, ...]
+
+I will do the imports for you:
+
+import numpy as np
+from cv2 import imread
+from os import walk
