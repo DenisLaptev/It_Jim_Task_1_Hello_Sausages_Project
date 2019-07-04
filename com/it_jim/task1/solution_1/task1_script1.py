@@ -61,6 +61,7 @@ def create_pictures_dict_list(folder_with_pictures_path):
                         if bottom_y < row:
                             bottom_y = row
 
+
             cv2.rectangle(image, (left_x, top_y), (right_x, bottom_y), (0, 255, 0), 2)
 
             cv2.imshow('image', image)
